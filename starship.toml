@@ -1,0 +1,19 @@
+# Use custom prompt symbols and colors
+format = """\
+$directory\
+$git_branch\
+$git_status\
+$python\
+$nodejs\
+$rust\
+$cmd_duration\
+$character\
+"""
+
+[directory]
+style = "blue bold"
+
+[character]
+success_symbol = "[➜](green)"
+error_symbol = "[✗](red)"
+
